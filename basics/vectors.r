@@ -41,13 +41,13 @@
     print(a[4]) #this will return the 4th element in a.
 
     #accessing all elements but the one which index is specified after a -(minus) sign:
-    print(a[4]) #returns all elements but the 4th one.
+    print(a[-4]) #returns all elements but the 4th one.
 
     #accessing a range of elements:
     print(a[1:3]) #returns the 1st, the 2nd and the 3rd elements.
 
     print(a[c(1,5)]) #returns the 1st and the 5th elements.
 
-    print(a[-c(2,4]) #returns all the element but the 2nd and the 4th ones.
+    print(a[-c(2,4]) #returns all the elements but the 2nd and the 4th ones.
 
-    print(a[a<=3]) #returns all element, within a, that are less or equal to 3.
+    print(a[a<=3]) #returns all elements, within a, that are less or equal to 3.

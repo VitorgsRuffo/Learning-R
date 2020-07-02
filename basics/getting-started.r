@@ -33,3 +33,7 @@
     i2 = log(10, 10) #the secong parameter specifies a base different from the e (that is the default base).
     j = exp(b) #e^b
     l = abs(-15) #absolute value
+
+#cleaning the R console: Ctrl + L
+
+#showing what a command does: help(command-name)
