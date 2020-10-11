@@ -7,6 +7,13 @@
         
         #obs: obviously the number of elements should be divisible by the number of rows to form a proper matrix. 
 
+    #creating a row matrix:
+        rmat = rbind(c(12,33,44));  #[12, 33, 33]
+
+    #creating a column matrix:
+        cmat = cbind(c(3,5,2)); #[3] 
+                                #[5]
+                                #[2]
 #operations:
 
     #accessing the matrix:
@@ -24,3 +31,15 @@
     mat - 15;
     mat * 100;
     mat / 50;
+
+    #return the matrix dimention:
+    dim(mat);
+
+
+#others:
+
+    #create a identity matrix of size n:
+        diag(n);
+
+    #returns the transpose of a matrix:
+        t(mat);
