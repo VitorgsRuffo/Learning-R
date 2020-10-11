@@ -1,0 +1,1 @@
+O objetivo deste exercício é de calcular a matriz inversa utilizando-se da Fatoração LU. 
